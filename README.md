@@ -29,6 +29,8 @@ Upon initiation, users are guided to:
 - Key in a keyword or query to retrieve pertinent results from the sitemap.
 Subsequently, the program fetches sitemap data, archives it into a CSV file, connects to EvaDB, initializes the FAISS index, and presents search results. Each result is enriched with metadata sentiment analysis.
 
+![Interactive CLI](Interactive_CLI.png)
+
 # Use Cases
 - Website Scrutiny: Fetching and decoding the sitemap illuminates the structure and content of a website, offering invaluable insights.
 - Embedding Creation: Transform URLs or select data chunks into embeddings, paving the way for further analysis or ML operations.
