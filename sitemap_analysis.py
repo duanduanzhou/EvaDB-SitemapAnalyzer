@@ -255,7 +255,7 @@ if __name__ == "__main__":
         # Connect to EvaDB and set up tables and functions
         cursor = connect_to_evadb()
         
-        # Checking if the table exists to avoid the warning
+        # Check if the table exists 
         all_tables = cursor.query("SHOW TABLES;").df()
         if "sitemaps" not in all_tables.values:
             create_sitemap_table()
@@ -272,7 +272,7 @@ if __name__ == "__main__":
         for elem in chunk_sitemap_data(sitemap_data):
             add_to_faiss_index(elem)
 
-        # use enhanced search with embeddings
+        # Use enhanced search with embeddings
         search_results = enhanced_search_using_embeddings(user_query, top_k=10)
         print(f"\nSearch results for '{user_query}':")
 

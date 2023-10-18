@@ -1,5 +1,5 @@
 # url_parser.py
-# fetch and parse the sitemap from a given URL
+# Fetch and parse the sitemap from a given URL, create embeddings for data
 
 import xml.etree.ElementTree as ET  # for XML parser
 import requests
