@@ -1,0 +1,2 @@
+evadb_data/evadb.db filter=lfs diff=lfs merge=lfs -text
+evadb-venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
