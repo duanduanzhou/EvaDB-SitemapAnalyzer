@@ -1,0 +1,7 @@
+# .gitignore
+
+# Large database file
+evadb_data/evadb.db
+
+# Large library file
+evadb-venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.dylib
